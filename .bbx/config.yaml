@@ -14,7 +14,6 @@ jobs:
   output:
    artifact:
     - Emulation-SW/build.sh
-    - sw_emu.sh
     - Emulation-SW/launch.sh
     - Emulation-SW/launch.expect
   steps:
@@ -29,7 +28,6 @@ jobs:
   output:
    artifact:
     - Emulation-HW/build.sh
-    - hw_emu.sh
     - Emulation-HW/launch.sh
     - Emulation-HW/launch.expect
   input: 
